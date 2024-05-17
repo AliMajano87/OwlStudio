@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web design and UX services">
+    <meta  name="keywords" content="UX, Web Design, Web Development">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Google Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <Style>
+        * {
+            margin:0px;
+            padding: 0px;
+            font-family: "Montserrat", sans-serif;
+            box-sizing: border-box;
+        }
+        .galleryCard {
+            width: 40px;
+            height: 40px;
+        }
+        .navbarOwl {
+            font-weight: 900;
+            background-color: #ffc107;
+        }
+        .buttons {
+            font-weight: 900;
+            background-color: #ffc107;
+        }
+        .dark-bg {
+            color: rgba(255, 213, 0, 0.919);
+            background-color: #222222;
+        }
+        a:hover{
+            color: rgba(255, 213, 0, 0.919);
+        }
+        
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 900,
+            'GRAD' 0,
+            'opsz' 1
+        }
+        .galery-container{
+            padding: 6.6%;
+        }
+        .heading1{
+            font-weight: 900;
+            padding: 8%;
+        }
+        .feature-title {
+            font-weight: 900;
+            padding: 8%;
+            text-align: center;
+        }
+
+   </Style>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbarOwl fixed-top">
+        <img class= "galleryCard" src="../img/OwlLogo-b.png" alt="OwlLogo">
+        <a class="navbar-brand" style="color: #222222;" href = "../pages/Index.html">OwlStudio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="material-symbols-outlined">
+                Menu
+                </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: #222222;"href="../pages/Services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #222222;" href="../pages/Gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #222222;" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="jumbotron text-center dark-bg">
+        <h1 class="feature-title">Gallery</h1>
+    </div>
+    <!-- Gallery Section -->
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col">
+                <img class= "img-fluid img-thumbnail" src="../img/Coffe1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="col">
+                <img class= "img-fluid img-thumbnail" src="../img/Coffe2.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="col">
+                <img class= "img-fluid img-thumbnail" src="../img/Coffe3.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="col">
+                <img class= "img-fluid img-thumbnail" src="../img/Coffe4.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="col">
+                <img class= "img-fluid img-thumbnail" src="../img/Coffe5.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="col">
+                <img class= "img-fluid img-thumbnail" src="../img/Coffe6.jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <p>OwlStudio&copy; 2024 </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

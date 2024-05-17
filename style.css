@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin:0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.yellow-bg {
+    color: rgba(255, 213, 0, 0.919)
+}
+.gallery-item {
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 80px 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover{
+    color: rgba(255, 213, 0, 0.919);
+}
+.heading1 {
+    padding-top: 500px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(17, 17, 17);
+    background-color: rgba(255, 213, 0, 0.919);
+}
+
+.galleryCard {
+    width: 250px;
+    height: 300px;
+}
